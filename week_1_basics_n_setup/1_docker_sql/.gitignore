@@ -1,0 +1,52 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+__pycache__/
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# PostgreSQL data directory
+pgdata/
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases
+*.log
+*.sqlite
+*.sql
+*.sqlite3
+*.db
+*.hdb
+*.sqlitedb
+
+# Temporary files
+*.bak
+*.swp
+*~
+*.swp
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+venv/
+env/
+
