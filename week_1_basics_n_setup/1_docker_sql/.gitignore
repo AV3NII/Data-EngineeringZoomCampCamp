@@ -20,6 +20,9 @@ pgdata/
 docker-compose.override.yml
 docker-compose.yml
 
+# Data
+*.csv
+
 # Compiled source
 *.com
 *.class
