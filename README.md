@@ -8,7 +8,8 @@ Welcome to the repository dedicated to my journey through the **Data Engineering
 
 The **Data Engineering Zoomcamp** covers a wide spectrum of topics, equipping me with the skills and knowledge needed in the field of data engineering. From containerization and infrastructure as code to analytics engineering and streaming, each module contributes to a holistic understanding of modern data engineering practices.
 
-## Repository Structure
+
+## Course Structure
 
 - **Weeks:**
   - The repository structure is organized into weekly folders, each containing one or more subtopics and hands-on projects relevant for becoming a data engineer.
@@ -22,6 +23,47 @@ The **Data Engineering Zoomcamp** covers a wide spectrum of topics, equipping me
         - Setting up infrastructure on GCP with Terraform
         - Preparing the environment for the course
       - Homework and More details
+     
+        
+    - **Week 2:**
+      - **Module 2: Workflow Orchestration**
+        - Data Lake
+        - Workflow orchestration
+        - Workflow orchestration with Mage
+      - **Workshop 1: Data Ingestion**
+      - Homework and More details
+     
+---
+
+## Repository Structure
+
+
+  - **week_1_basics_n_setup:**
+    - **1_docker_sql:**
+      - .ipynb_checkpoints
+      - pgdata
+
+    - **2_terraform_gcp:**
+      - terraform
+      - keys
+
+  - **week_2_mage:**
+    - **mage_ai_terraform_templates:**
+      - aws
+      - aws-code-pipeline
+      - aws-dev
+      - aws-eks
+      - azure
+      - digitalocean
+      - gcp
+      - gcp-dev
+
+    - **mage_zoomcamp:**
+      - **mage_data:**
+      - **magic-zoomcamp:**
+      - personal-gcp.json
+
+---
 
 ## Getting Started
 
