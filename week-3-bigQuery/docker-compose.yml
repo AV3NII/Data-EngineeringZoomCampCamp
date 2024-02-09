@@ -1,0 +1,12 @@
+version: "3"
+services:
+  magic:
+    image: mageai/mageai:latest
+    command: mage start week-3-hw
+    environment:
+      USER_CODE_PATH: /home/src/week-3-hw
+    ports:
+      - 6789:6789
+    volumes:
+      - .:/home/src/
+    restart: on-failure:5
