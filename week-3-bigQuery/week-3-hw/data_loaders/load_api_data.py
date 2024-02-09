@@ -28,7 +28,10 @@ def load_data_from_api(*args, **kwargs):
         df_part = pd.read_parquet(url, engine='pyarrow')
         frames.append(df_part)
 
+
     return pd.concat(frames)
+
+
 
 @test
 def test_output(output, *args) -> None:
