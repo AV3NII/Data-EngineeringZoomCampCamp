@@ -43,4 +43,45 @@
 
 -> 1622
 
+# Question 4
+
+{
+    CREATE TABLE `zoomcamp-dataengineering.ny_taxi.optimizedTable`
+    PARTITION BY DATE(lpep_pickup_datetime)
+    CLUSTER BY PUlocationID AS
+    SELECT
+      * 
+    FROM
+    `zoomcamp-dataengineering.ny_taxi.dataInternal`;
+
+}
+- Partition by lpep_pickup_datetime Cluster on PUlocationID
+
+
+# Question 5
+{
+    SELECT DISTINCT PULocationID
+    FROM `zoomcamp-dataengineering.ny_taxi.optimizedTable`
+    WHERE lpep_pickup_datetime >= '2022-06-01 00:00:00'
+    AND lpep_pickup_datetime <= '2022-06-30 23:59:59';
+}
+- 12.82 mb Materialized Table
+- 1.12 mb partitioned Table
+
+    - 12.82 MB for non-partitioned table and 1.12 MB for the partitioned table
+
+# Question 6
+- GCP Bucket
+
+# Question 7
+- True
+
+# Question 8
+{
+    select count(*) from `ny_taxi.dataInternal`
+}
+
+- 0 bytes (Was executed already by bigquery. it is precached)
+
+- BigQuery hat processes in the background that speed things up. for example it uses meta data about the table to calculate the result of the Query insted of retriefing all data and then counting it.
 
