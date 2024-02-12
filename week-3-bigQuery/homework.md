@@ -74,7 +74,7 @@
 - GCP Bucket
 
 # Question 7
-- True
+- False
 
 # Question 8
 {
