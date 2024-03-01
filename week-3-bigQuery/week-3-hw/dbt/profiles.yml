@@ -5,5 +5,4 @@ base:
 
     dev:
       type: duckdb
-
   target: dev
