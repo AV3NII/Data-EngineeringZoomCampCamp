@@ -1,0 +1,9 @@
+data/
+fhvhv/
+zones/
+
+.ipynb_checkpoints/
+
+*.csv
+*.gz
+*.parquet
