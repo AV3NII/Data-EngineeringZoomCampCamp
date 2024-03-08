@@ -4,7 +4,7 @@
 
 Welcome to the repository dedicated to my journey through the **Data Engineering Zoomcamp**! This space is where I'll be showcasing my progress, projects, and assignments throughout the course. As I delve into the world of data engineering, this repository serves as a comprehensive record of my hands-on experience and code implementations.
 
-## Course Overview
+## Course Overview --TODO: UPDATE until week 6
 
 The **Data Engineering Zoomcamp** covers a wide spectrum of topics, equipping me with the skills and knowledge needed in the field of data engineering. From containerization and infrastructure as code to analytics engineering and streaming, each module contributes to a holistic understanding of modern data engineering practices.
 
