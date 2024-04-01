@@ -42,7 +42,6 @@ The **Data Engineering Zoomcamp** covers a wide spectrum of topics, equipping me
       - Running Postgres locally with Docker
       - Setting up infrastructure on GCP with Terraform
       - Preparing the environment for the course
-    - Homework
    
       
   - **Week 2:**
@@ -97,7 +96,7 @@ The **Data Engineering Zoomcamp** covers a wide spectrum of topics, equipping me
       - **Raisingwave Integration:** Hands-on session demonstrating the integration of Raisingwave, a stream processing platform, into data pipelines.
       - **Real-time analytics:** Practical exercises focusing on performing real-time analytics using SQL queries on streaming data.
       - **Stream transformations:** Implementing stream transformations using SQL to manipulate and enrich streaming data.
-      
+
 ---
 
 ## Getting Started
