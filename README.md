@@ -26,7 +26,7 @@ The **Data Engineering Zoomcamp** covers a wide spectrum of topics, equipping me
   - Comupte Engine
   - Dataproc
 
-[Course and Tool Overview](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/images/architecture/arch_v3_workshops.jpg)
+![Course and Tool Overview](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/images/architecture/arch_v3_workshops.jpg)
 
 ---
 
