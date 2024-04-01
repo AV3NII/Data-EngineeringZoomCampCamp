@@ -4,6 +4,8 @@
 
 Welcome to the repository dedicated to my journey through the **Data Engineering Zoomcamp**! This space is where I'll be showcasing my progress, projects, and assignments throughout the course. As I delve into the world of data engineering, this repository serves as a comprehensive record of my hands-on experience and code implementations.
 
+---
+
 ## Course Overview
 
 The **Data Engineering Zoomcamp** covers a wide spectrum of topics, equipping me with the skills and knowledge needed in the field of data engineering. From containerization and infrastructure as code to analytics engineering and streaming, each module contributes to a holistic understanding of modern data engineering practices.
@@ -24,7 +26,11 @@ The **Data Engineering Zoomcamp** covers a wide spectrum of topics, equipping me
   - Comupte Engine
   - Dataproc
 
-## Course Structure
+[Course and Tool Overview](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/images/architecture/arch_v3_workshops.jpg)
+
+---
+
+## Course and Repository Structure
 
 - **Weeks:**
   - The repository structure is organized into weekly folders, each containing one or more subtopics and hands-on projects relevant for becoming a data engineer.
@@ -97,7 +103,6 @@ The **Data Engineering Zoomcamp** covers a wide spectrum of topics, equipping me
         - **Real-time analytics:** Practical exercises focusing on performing real-time analytics using SQL queries on streaming data.
         - **Stream transformations:** Implementing stream transformations using SQL to manipulate and enrich streaming data.
 
-      
 ---
 
 ## Getting Started
